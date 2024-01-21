@@ -1,11 +1,18 @@
 body {
-    background-color: #f0f0f0;
+   background-color: #f0f0f0;
     font-family: 'Arial', sans-serif;
     text-align: center;
 }
-
 h1 {
-    color: #333; 
+   color: #333; 
 }
 
 
+
+
+.animated-square {
+    width: 25px;
+    height: 25px;
+    background-color: #3498db;
+    margin-top: 100px;
+}
