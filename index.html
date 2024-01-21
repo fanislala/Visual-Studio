@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Favorite Song</title>
     <link rel="stylesheet" href="styles.css">
+ <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/3.2.1/anime.min.js"></script>
 </head>
 <body>
     <h1>Welcome to My Favorite Song</h1>
@@ -13,8 +14,9 @@
     <iframe width="560" height="315" src="https://www.youtube.com/watch?v=6DfaBq2rVoE" frameborder="0" allowfullscreen></iframe>
 
     <!-- Animation trigger button -->
-    <button onclick="animateElement()">Animate Me!</button>
-
+    <div class="animated-square"></div>
+    <button onclick="animateSquare()">Animate Me!</button>
     <script src="script.js"></script>
+
 </body>
 </html>
